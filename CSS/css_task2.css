@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: white;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    width: 100%;
+    height: 15%;
+    background-color: #55d4eb;
+}
+header h2{
+    text-align: center;
+    position: relative;
+    top: 37px;
+}
+section{
+    width: 100%;
+    height: 65%;
+    margin: 1% 0;
+}
+aside{
+    height: 100%;
+    width: 59%;
+    background-color: #a0c263;
+    float: left;
+}
+aside h2{
+    text-align: center;
+    margin-top: 67px;
+}
+main{
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+article{
+    width: 100%;
+    height: 68%;
+    background-color: #f5c531;
+    margin-bottom: 2%;
+}
+article h2{
+    text-align: center;
+    position: relative;
+    top: 53px;
+}
+.extra{
+    width: 100%;
+    height: 30%;
+    background-color: #898989;
+}
+.extra h2{
+    text-align: center;
+    position: relative;
+    top: 53px;
+}
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: #ffa500;
+}
+footer h2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
