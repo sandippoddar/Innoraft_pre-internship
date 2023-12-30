@@ -20,10 +20,11 @@ main{
 }
 .side{
     height: 413px;
+    display: inline-block;
 }
 #side1{
     
-    display: inline-block;
+   
     background-color: #ff037e;
     font-size: 25px;
     width: 70%;
@@ -31,14 +32,13 @@ main{
 }
 #side2{
     
-    display: inline-block;
     background-color: #ce0468;
     font-size: 25px;
     width: calc(30% - 15px);
 }
 footer{
     
-    height: 19%;
     margin-top: 15px;
-    background-color:#802755;
+    height: 22%;
+    background-color: #802755;
 }
