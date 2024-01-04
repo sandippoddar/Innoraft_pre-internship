@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    background-color: #b8b6b6;
+}
+
+.container{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
+p{
+    color: white;
+}
+.status{
+    padding: 30px;
+    background-color: #42515a;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border: 8px solid #c74385;
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+}
+.name{
+    font-size: 25px;
+}
+.about{
+    margin-bottom: 40px;
+    margin-top: -37px;
+}
+.name{
+    color: #c74385;
+}
+.email{
+    margin: 10px 0;
+}
+.social{
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    
+    
+}
+.social_1{
+    display: inline-block;
+    
+    padding: 10px;
+    background-color: #c74385;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+
+.follower{
+    background-color: #c74385;
+    padding: 20px;
+    color: white;
+}
