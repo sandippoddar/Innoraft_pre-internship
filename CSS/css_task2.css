@@ -21,20 +21,19 @@ header{
 }
 header h2{
     text-align: center;
-    /* position: relative;
-    top: 37px; */
+    
 }
 section{
-    font-size: 0;
+    display: flow-root;
+    
 }
 .section{
-     display: inline-block;
+     /* display: inline-block; */
      height: 479px;
      margin-bottom: 15px;
 }
 aside{
-    
-    height: 100%;
+    float: left;
     width: 55%;
     text-align: center;
     margin-right: 15px;
@@ -43,8 +42,8 @@ aside{
 }
 
 main{
+    float: right;
     
-    height: 100%;
     width: calc(45% - 15px);
     
 }

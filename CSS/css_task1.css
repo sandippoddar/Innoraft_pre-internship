@@ -16,22 +16,21 @@ header{
 }
 main{
     
-    font-size: 0;
+    display: flow-root;
 }
 .side{
     height: 413px;
-    display: inline-block;
 }
 #side1{
     
-   
+    float: left;
     background-color: #ff037e;
     font-size: 25px;
     width: 70%;
     margin-right: 15px;
 }
 #side2{
-    
+    float: right;
     background-color: #ce0468;
     font-size: 25px;
     width: calc(30% - 15px);
