@@ -7,11 +7,12 @@
 body{
     
     background-color: #b8b6b6;
+    position: relative;
 }
 
 .container{
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
     
     position: absolute;
     top: 50%;
@@ -34,7 +35,9 @@ img{
     border: 8px solid #c74385;
     border-radius: 50%;
     position: relative;
-    bottom: 80px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
 }
 .name{
     font-size: 25px;
