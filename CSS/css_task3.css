@@ -10,7 +10,7 @@ body{
 }
 p{
     color: white;
-    letter-spacing: 4px;
+    word-spacing: 4px;
 }
 
 /* upper side */
@@ -42,9 +42,9 @@ img{
 }
 .upper-left{
     float: left;
-   
+    width: 500px;
     padding: 48px;
-    margin-right: 226px;
+    margin-right: 400px;
 }
 .upper_p{
     font-size: 40px;
@@ -63,7 +63,7 @@ img{
     float: left;
     background-color: #571212;
     font-size: 15px;
-    height: 357px;
+    height: 364px;
     padding: 45px;
     width: calc((100% - 20px) / 3);
 }
