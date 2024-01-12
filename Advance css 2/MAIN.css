@@ -10,7 +10,9 @@ p{
 a{
     text-decoration: none;
 }
-
+.img path{
+    fill: whitesmoke;
+}
 .header{
     display: flex;
     justify-content: center;
@@ -260,7 +262,9 @@ a{
     
     padding: 15px;
     border-radius: 50%;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg);
     background-color: linear-gradient(rgba(252, 253, 255, 0.177),rgba(217, 219, 226, 0.423));
+    
     /* background-color: red; */
 }
 .para p{
@@ -301,6 +305,7 @@ a{
 }
 .card img{
     width: 150px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg);
 }
 .card-ele:hover p{
     color: #d0a904;
