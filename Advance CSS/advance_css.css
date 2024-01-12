@@ -2,15 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: roboto,sans-serif;
     /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 .header{
     display: flex;
     justify-content: center;
     background-color: #d9d9d9;
+    padding: 10px 0;
     /* justify-content: space-around;
     align-items: center; */
     /* padding: 10px; */
+}
+.image img{
+    
+    width: 70%;
 }
 .bridge1{
     width: 1600px;
@@ -22,14 +32,15 @@
     display: flex;
     gap: 30px;
 }
-li{
+.header ul li{
     list-style: none;
     color: #06a3cc;
     font-size: 20px;
     padding: 15px;
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-li:hover{
+.header ul li:hover{
     /* padding: 10px; */
     background-color: black;
     color: white;
@@ -123,15 +134,11 @@ input{
     
     color: white;
 }
-.foot-list p{
-    padding: 0 20px;
+.foot-list li{
+    padding: 20px;
     font-size: 20px;
-}
-.foot-list p:nth-child(-n+3){
+    list-style: none;
     
-    border: 1px solid white;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
 }
+
 
