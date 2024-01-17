@@ -440,10 +440,10 @@ a,li{
     color: black;
 }
 .lower button:hover{
-    border: none;
+    border: 3px solid white;
     background: #d0a904;
     color: whitesmoke;
-    font-size: 20px;
+    
 }
 
 
