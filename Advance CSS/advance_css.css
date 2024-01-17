@@ -10,12 +10,11 @@ a{
     color: whitesmoke;
 }
 .header{
-    display: flex;
-    justify-content: center;
+    
     background-color: #d9d9d9;
-    padding: 10px 0;
-    /* justify-content: space-around;
-    align-items: center; */
+    /* padding: 10px 0;
+    /* justify-content: space-around; */
+    /*align-items: center; */
     /* padding: 10px; */
 }
 .image img{
@@ -23,7 +22,9 @@ a{
     width: 70%;
 }
 .bridge1{
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,8 +54,8 @@ a{
 
 
 .banner{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     /* align-items: center; */
     background-color: #06a3cc;
     padding: 80px 0;
@@ -73,8 +74,8 @@ a{
 
 
 .main{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     padding: 20px 0;
 }
 .left{
