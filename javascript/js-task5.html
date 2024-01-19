@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js-task5-css.css">
+    <title>JS TASK 5</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>HEADER</h2>
+        </header>
+    
+    
+        <section>
+            <aside class="section">
+                <h2 class="touch">SIDEBAR</h2>
+            </aside>
+    
+            <main class="section">
+                <article>
+                    <h2>MAIN CONTENT</h2>
+                </article>
+                <div class="extra">
+                    <h2>EXTRA CONTENT</h2>
+                </div>
+            </main>
+        </section>
+    
+    
+        <footer>
+              <h2 class="active">FOOTER</h2>
+        </footer>
+        
+        <div class="overlay">
+            <!-- <div class="popup">
+                <p class="close" style="cursor: pointer;">x</p>
+                <p>I AM POPUP</p>
+            </div> -->
+            <div class="upper"><p class="close" style="cursor: pointer;">X</p></div>
+            
+            <div class="middle">
+               <p>I AM POPUP</p> 
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        
+        const active=document.querySelector(".active");
+        let overlay=document.querySelector(".overlay");
+        const close=document.querySelector(".close");
+
+        active.addEventListener("click",()=>{
+            
+            overlay.style.display="block";
+        });
+
+        close.addEventListener("click",()=>{
+            
+            overlay.style.display="none";
+        })
+        document.querySelector(".touch").addEventListener("click",()=>{
+            document.querySelector(".touch").innerText="Left Bar";
+        })
+        document.querySelector("header").addEventListener("click",()=>{
+            document.querySelector("header").style.backgroundColor="brown";
+        })
+    </script>
+</body>
+</html>

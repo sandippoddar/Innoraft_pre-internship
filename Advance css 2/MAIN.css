@@ -1,5 +1,9 @@
 
 /* RESET CSS */
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto/Roboto-Light.ttf);
+}
 *{
     padding: 0;
     margin: 0;

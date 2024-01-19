@@ -9,9 +9,12 @@ h2{
     font-size: 26px;
 }
  body{
-    height: 100vh;
-    /* width: 100vw; */
+    /* height: 100vh; */
+    width: 100vw;
 } 
+.container{
+    position: relative;
+}
 header{
     width: 100%;
     height: 15%;
@@ -70,33 +73,50 @@ article h2{
 }
 footer{
     width: 100%;
-    height: 17%;
-    padding-top: 30px;
+    /* height: 17%; */
+    padding: 30px 0;
     background-color: #ffa500;
 }
 footer h2{
     text-align: center;
+    cursor: pointer;
 }
 /* .popup{
-    display: none;
-    position: fixed;
+    
+    position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    text-align: center;
+     transform: translate(-50%,-50%); 
     color: white;
     font-size: 40px;
+    margin: auto;
     
-    z-index: 101;
+} */
+.upper{
+    height: 10%;
+}
+.upper p{
+    text-align: right;
 }
 .overlay{
     display: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 800px;
-    background-color: linear-gradient(rgba(28, 71, 150, 0.682),rgba(22, 37, 149, 0.632));
-    background-color: red;
+    height: 100%;
+    /* background-color: linear-gradient(rgba(28, 71, 150, 0.682),rgba(22, 37, 149, 0.632)); */
+    background-color: black;
     opacity: 0.5;
-    z-index: 100;
-} */
+    padding: 35px;
+}
+.overlay p{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.middle{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
