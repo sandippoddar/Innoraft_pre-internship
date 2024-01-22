@@ -1,7 +1,7 @@
 
 /* RESET CSS */
 @font-face {
-    font-family: roboto;
+    font-family: Roboto;
     src: url(./Roboto/Roboto-Light.ttf);
 }
 *{
@@ -118,7 +118,9 @@ a,li{
     border-radius: 26px 26px 26px 26px;
 } */
 
-
+section{
+    padding: 100px 0;
+}
 
 .main-1{
     display: flex;
@@ -128,8 +130,9 @@ a,li{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
     /* min-height: 500px; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .bridge1{
@@ -220,7 +223,7 @@ a,li{
     
 }
 .main-2{
-    padding: 150px 0;
+   
     display: flex;
     justify-content: center;
 }
@@ -281,7 +284,7 @@ a,li{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 100px 0;
+   
     /* height: 100vh; */
     
 }
@@ -338,7 +341,7 @@ a,li{
 .main-grid{
     display: flex;
     justify-content: center;
-    padding: 150px 0;
+   
 }
 .bridge-grid p{
     color: black;
@@ -411,7 +414,7 @@ a,li{
     justify-content: center;
     align-items: center; */
     text-align: center;
-    padding: 70px 0;
+   
     /* height: 500px; */
 }
 .card{
@@ -440,7 +443,7 @@ a,li{
     /* display: flex;
     justify-content: center; */
     text-align: center;
-    padding: 100px 0;
+    
     background-color: #f5f4fa;
 }
 .main-5 p{
@@ -497,7 +500,7 @@ a,li{
     /* display: flex;
     justify-content: center; */
     text-align: center;
-    padding: 200px 0;
+   
 
 }
 .main-6 .upper6 h1{
@@ -571,12 +574,12 @@ a,li{
 
 
 
-.main-7{
-    /* display: flex;
-    justify-content: center; */
-    /* text-align: center; */
+/* .main-7{
+    display: flex;
+    justify-content: center; 
+     text-align: center;
     padding: 100px 0;
-}
+} */
 /* .bridge6{
     max-width: 1600px;
     width: 100%;
@@ -588,11 +591,9 @@ a,li{
     padding: 30px 0;
 }
 .card7{
-    display: flex;
-    justify-content: space-between;
+    
     padding: 70px 0;
-    flex-basis: auto;
-    flex-wrap: wrap;
+    
 }
 .card7_card{
     width: 29%;
@@ -631,9 +632,7 @@ a,li{
 
 
 .footer{
-    /* display: flex;
-    justify-content: center; */
-    /* padding: 150px 0; */
+    
     background-color: #383275;
 }
 .footer h1{
@@ -644,9 +643,7 @@ a,li{
     width: 100%;
 } */
 .card8{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+   
     padding: 50px 0;
 }
 .card8-1{
@@ -711,6 +708,9 @@ a,li{
 @media screen and (max-width:500px) {
     body{
         font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
     }
     .wrapper-content{
         max-width: 500px;
