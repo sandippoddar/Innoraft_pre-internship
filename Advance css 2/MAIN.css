@@ -53,11 +53,7 @@ a,li{
     /* align-items: center; */
     flex-wrap: wrap;
 }
-.flex-space_between{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-}
+
 .header-ul{
     display: flex;
     flex-wrap: wrap;
@@ -322,11 +318,7 @@ a,li{
 }
 
 .service{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    /* padding: 100px 0; */
+    
     margin: 100px 0;
 }
 /* .button-main3 button{
@@ -459,10 +451,8 @@ a,li{
     width: 100%;
 
 } */
-.card1{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.card5{
+    
     padding-top: 80px;
 }
 .card-ele1{
@@ -719,17 +709,21 @@ a,li{
 
 
 @media screen and (max-width:500px) {
+    body{
+        font-size: 12px;
+    }
     .wrapper-content{
         max-width: 500px;
         padding: 0 20px;
         
     }  
-    .card1 .card-ele1{
+    .card-ele1{
         width: 100%;
         margin: 10px 0;
     }
     .main-2 .left, .main-2 .right{
         width: 100%;
+        margin: 15px 0;
     }
     .card7_card{
         width: 100%;
@@ -740,15 +734,47 @@ a,li{
     }
      .card8-1{
         width: 50%;
-        margin: 20px 0;
+        margin: 25px 0;
      }
-     .main-grid{
+     /* .main-grid{
         display: none;
-     }
+     } */
      .digital-market{
         width: 100%;
      }
     .card6-ele{
         width: 100%;
+        margin: 15px 0;
+    }
+
+
+
+    .main-grid {
+        padding: 100px 0;
+    }
+
+    /* .bridge-grid h1 {
+        font-size: 30px;
+    } */
+
+    .menu-grid ul {
+        flex-direction: column;
+    }
+
+    .menu-grid ul li {
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex img {
+        height: auto;
+    }
+
+    .fb {
+        gap: 10px;
     }
 }
