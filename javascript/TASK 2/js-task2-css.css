@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+.slide-down{
+    padding: 5px;
+    background-color: #e5eecc;
+}
+.hello-world{
+    display: none;
+    padding: 100px;
+    background-color: #dfedff;
+}

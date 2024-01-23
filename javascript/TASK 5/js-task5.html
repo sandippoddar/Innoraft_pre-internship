@@ -18,18 +18,18 @@
                 <h2 class="touch">SIDEBAR</h2>
             </aside>
     
-            <main class="section">
-                <article>
+            <div class="section">
+                <div class="main">
                     <h2>MAIN CONTENT</h2>
-                </article>
+                </div>
                 <div class="extra">
                     <h2>EXTRA CONTENT</h2>
                 </div>
-            </main>
+            </div>
         </section>
     
     
-        <footer>
+        <footer> 
               <h2 class="active">FOOTER</h2>
         </footer>
         
@@ -46,27 +46,7 @@
         </div>
     </div>
     
-    <script>
-        
-        const active=document.querySelector(".active");
-        let overlay=document.querySelector(".overlay");
-        const close=document.querySelector(".close");
-
-        active.addEventListener("click",()=>{
-            
-            overlay.style.display="block";
-        });
-
-        close.addEventListener("click",()=>{
-            
-            overlay.style.display="none";
-        })
-        document.querySelector(".touch").addEventListener("click",()=>{
-            document.querySelector(".touch").innerText="Left Bar";
-        })
-        document.querySelector("header").addEventListener("click",()=>{
-            document.querySelector("header").style.backgroundColor="brown";
-        })
-    </script>
+    <script src="/javascript/jquery/jquery.js" type="text/javascript"></script>
+    <script src="./js-task5-jq.js"></script>
 </body>
-</html>
+</html>  
