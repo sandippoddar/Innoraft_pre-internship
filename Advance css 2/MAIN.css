@@ -64,7 +64,7 @@ a,li{
     
 }
 .img-container{
-    max-width: 133px;
+    max-width: 170px;
 }
 .img-container img{
     width: 100%;
@@ -220,7 +220,7 @@ section{
 
 .main-2 p{
     color: black;
-    
+    padding: 15px 0;
 }
 .main-2{
    
@@ -604,8 +604,7 @@ section{
     width: 100%;
 }
 .button7 button{
-    padding: 18px 45px;
-    border-radius: 26px 26px 26px 26px;
+    
     border: 3px solid black;
     background: whitesmoke;
     color: black;
@@ -707,7 +706,7 @@ section{
 
 @media screen and (max-width:500px) {
     body{
-        font-size: 12px;
+        font-size: 14px;
     }
     h1{
         font-size: 20px;
@@ -716,8 +715,16 @@ section{
         max-width: 500px;
         padding: 0 20px;
         
-    }  
-    .card-ele1{
+    } 
+    .media100{
+         width: 100%;
+         margin: 15px 0;
+    } 
+    .media50{
+        width: 50%;
+        margin: 20px 0;
+    }
+    /* .card-ele1{
         width: 100%;
         margin: 10px 0;
     }
@@ -736,16 +743,14 @@ section{
         width: 50%;
         margin: 25px 0;
      }
-     /* .main-grid{
-        display: none;
-     } */
+     
      .digital-market{
         width: 100%;
      }
     .card6-ele{
         width: 100%;
         margin: 15px 0;
-    }
+    } */
 
 
 
