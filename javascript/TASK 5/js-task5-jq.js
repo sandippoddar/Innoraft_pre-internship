@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+$("document").ready(function(){
      
     const active=$(".active");
     let overlay=$(".overlay");

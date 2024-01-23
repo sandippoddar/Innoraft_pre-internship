@@ -3,7 +3,7 @@
 // })
 
 
-$(document).ready(()=>{
+$("document").ready(()=>{
      
     $("button").click(()=>{
         

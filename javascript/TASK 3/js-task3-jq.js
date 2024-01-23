@@ -1,6 +1,6 @@
 
 
-$(document).ready(()=>{
+$("document").ready(()=>{
      
    
     $("#btn").click((e)=>{
