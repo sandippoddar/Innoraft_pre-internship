@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 20px;
+    font-family: Roboto,sans-serif;
+}
+
+
+.wrapper{
+    max-width: 1200px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.flex-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-col{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 30px;
+}
+.flex-gap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.primary-button button{
+    padding: 15px 30px;
+    border-radius: 27px;
+    border: none;
+}
+.primary-button button:hover{
+    
+    background-color: #007a82;
+    color: #fff;
+}
+header,section{
+    background-color: #f5f5f5;
+}
+
+
+
+
+.img-container{
+    max-width: 130px;
+}
+.img-container img{
+    width: 100%;
+}
+
+header .wrapper{
+    align-items: center;
+}
+nav ul{
+    flex-wrap: wrap;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+
+
+
+
+.left,.right{
+    max-width: 47%;
+}
+
+.upper{
+    align-items: center;
+}
+.line{
+    width: 70px;
+    border-top: 4px solid #fdc125;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fdc125;
+}
+.right{
+    object-fit: cover;
+}
+.right img{
+    width: 100%;
+}
+.heading h1{
+    font-size: 40px;
+}
+
+
+
+
+
+footer .wrapper{
+    position: relative;
+}
+.foot-sec{
+    max-width: calc(1200px - 20%);
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%,-30%);
+    
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* top: -50%; */
+}
+.heading-foot h1{
+    font-size: 25px;
+}
+.foot{
+    max-width: 23%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 12px  grey;
+}
+.foot:hover{
+    background-color: #007a82;
+    .heading-foot h1{
+        color: #fdc125;
+    }
+    p{
+        color: #fff;
+    }
+}
+.foot .line{
+    width: 100%;
+}
+
+
+
+
+
+@media  screen and (max-width:500px) {
+    .wrapper{
+        max-width: 500px;
+        padding: 0 20px;
+    }
+    .foot-sec{
+        max-width: 500px;
+    }
+    .media100{
+        max-width: 100%;
+        margin: 15px 0;
+    }
+    .foot-sec{
+        
+        
+        position: relative; 
+        
+         transform: translateX(-50%);
+        
+
+    }
+}
