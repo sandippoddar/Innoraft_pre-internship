@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Work Sans;
+    src: url(./Fonts/WorkSans-Medium.woff);
+}
+@font-face {
+    font-family: Sharp Grotesk;
+    src: url(./Fonts/SharpGrotesk-Medium.woff);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+    font-family: Work Sans,sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-gap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+nav ul li{
+    padding: 15px 25px;
+}
+
+
+.header1{
+    padding: 20px 0;
+}
+
+.line{
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.button button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #FFD560;
+    border-radius: 20px;
+    border: 2px solid #000;
+   
+}
+
+
+
+.header2{
+    display: flex;
+    justify-content: center;
+}
+.header2 ul li{
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+.header2 ul li:hover{
+    background-color: #FFD560;
+}
+
+
+
+.hero-container{
+    position: relative;
+}
+.overlay-hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.img-bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* height: 60%; */
+    width: 25%;
+}
+.img-bg h1{
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    left: 100%;
+    transform: translateX(-20%);
+    top: 10%;
+}
+.img-bg img{
+    width: 100%;
+    /* height: 100%; */
+}
+.content{
+    position: relative;
+}
+.img-container-parallel{
+    max-width: 40%;
+}
+.img-container-parallel img{
+    width: 100%;
+}
+.lower{
+    align-items: center;
+}
+.info{
+    padding: 20px;
+}
+.info h1{
+    font-size: 25px;
+}
+.info input{
+    width: 100%;
+    padding: 10px 15px;
+}
+.lower-ele{
+    width: 30%;
+}
+.img-container-lower img{
+    width: 100%;
+}
+
+.header2, section{
+    background-color: #FFF7F1;
+}
